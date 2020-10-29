@@ -1,0 +1,7 @@
+custom_module.content:
+  path: '/custom'
+  defaults:
+    _controller: '\Drupal\custom_module\Controller\HelloController::content'
+    _title: 'Hello World'
+  requirements:
+    _permission: 'access content'
